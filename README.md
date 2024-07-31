@@ -18,8 +18,8 @@ npm install --force
 
 2. Hacer la copia del archivo .env:
 
-cp .env.example .env
-php artisan key:generate
+- cp .env.example .env
+- php artisan key:generate
 
 3. Establecer la migración junto a los seeders:
 

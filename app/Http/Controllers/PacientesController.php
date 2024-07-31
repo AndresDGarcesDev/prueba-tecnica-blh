@@ -46,7 +46,7 @@ class PacientesController extends Controller
         $pacientes = Pacientes::create($request->all());
         $pacientes->save();
 
-        return redirect()->route('pacientes.show', $pacientes->id)->with('success', 'Paciente creado con éxito.');
+        return redirect()->route('pacientes.index', $pacientes->id)->with('success', 'Paciente creado con éxito.');
     }
 
     /**

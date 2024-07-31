@@ -4,7 +4,6 @@ use App\Http\Controllers\CitasMedicasController;
 use App\Http\Controllers\MedicosController;
 use App\Http\Controllers\PacientesController;
 use App\Http\Controllers\ProfileController;
-use App\Models\Pacientes;
 use Illuminate\Support\Facades\Route;
 
 /*
